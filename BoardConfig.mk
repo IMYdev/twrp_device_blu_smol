@@ -1,7 +1,4 @@
-# Bootloader
-TARGET_NO_BOOTLOADER := true
-TARGET_BOOTLOADER_BOARD_NAME := sc8830
-TARGET_BOARD_PLATFORM := sc8830
+DEVICE_PATH := device/blu/smol
 
 # Architecture
 TARGET_ARCH := arm
@@ -11,6 +8,11 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
+
+# Bootloader
+TARGET_NO_BOOTLOADER := true
+TARGET_BOOTLOADER_BOARD_NAME := sc8830
+TARGET_BOARD_PLATFORM := sc8830
 
 # Kernel Prebuilt
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
