@@ -43,7 +43,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 PRODUCT_PACKAGES += \
 	init.recovery.v2510.rc \
 	ueventd.v2510.rc \
-  ueventd.rc
+  	ueventd.rc
 
 # TWRP
 RECOVERY_SDCARD_ON_DATA := true
